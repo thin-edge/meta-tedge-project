@@ -8,7 +8,7 @@ header:
 
 machine: raspberrypi4-64
 distro: poky
-target: core-image-tedge-mender
+target: core-image-base
 
 env:
   IMAGE_VERSION_SUFFIX: "_123123"

@@ -6,6 +6,7 @@ local_conf_header:
   rauc-raspberrypi: |
     RPI_USE_U_BOOT = "1"
     IMAGE_INSTALL:append = " rauc"
+    DISTRO_FEATURES:append = " rauc"
     PREFERRED_PROVIDER_virtual/bootloader = "u-boot"
     IMAGE_FSTYPES = " tar.bz2 ext4 wic.bz2 wic.bmap"
     SDIMG_ROOTFS_TYPE = "ext4"
