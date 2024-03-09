@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/siemens/kas/66261547b75885786777a0b9c8a4400ab81d432e/kas/schema-kas.json
+header:
+  version: 14
+
+local_conf_header:
+  rauc-raspberrypi: |
+    RPI_USE_U_BOOT = "1"
+    IMAGE_INSTALL:append = " rauc"
+    PREFERRED_PROVIDER_virtual/bootloader = "u-boot"
+    IMAGE_FSTYPES = " tar.bz2 ext4 wic.bz2 wic.bmap"
+    SDIMG_ROOTFS_TYPE = "ext4"
+    WKS_FILE = "sdimage-dual-raspberrypi.wks.in"
