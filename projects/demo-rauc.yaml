@@ -44,5 +44,5 @@ repos:
     layers:
       meta-rauc-raspberrypi:
 
-  meta-tedge-bin:
-    url: "https://github.com/thin-edge/meta-tedge-bin"
+  # meta-tedge-bin:
+  #   url: "https://github.com/thin-edge/meta-tedge-bin"
