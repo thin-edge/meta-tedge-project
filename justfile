@@ -26,6 +26,10 @@ update-demo-lock *args="":
 build-project file *args="":
     python3 -m kas build {{file}} {{args}}
 
+# Run custom bitbake command with a given project
+bitbake file *args="":
+    python3 -m kas shell {{file}} -c 'bitbake {{args}}'
+
 # Build demo
 build-demo *args="":
     python3 -m kas build ./projects/demo.yaml {{args}}
