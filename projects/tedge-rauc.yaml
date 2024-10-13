@@ -53,7 +53,8 @@ repos:
     branch: master
 
   meta-tedge:
-    url: "https://github.com/thin-edge/meta-tedge.git"
+    url: "https://github.com/reubenmiller/meta-tedge.git"
+    branch: fix-readonly-support
     layers:
       meta-tedge:
       meta-tedge-common:
