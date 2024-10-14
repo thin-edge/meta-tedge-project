@@ -11,6 +11,6 @@ overrides:
         meta-rauc-community:
             commit: c3f3ab4c587f51a74a76546ce2813c8be7c6d128
         meta-tedge:
-            commit: eac966ce0239c688650605bebc99f68dc8f07291
+            commit: 779b6ffe0629aea111aeb2d7c1b40f40f370d5cd
         poky:
             commit: 47ffa50db25a5ceeb73a3a0600dd9e68274d184f

@@ -6,6 +6,7 @@ header:
     - config/raspberrypi.yaml
     - config/rauc-raspberrypi.yaml
     - config/package-management.yaml
+    # - config/read-only.yaml
 
 machine: raspberrypi4-64
 distro: poky

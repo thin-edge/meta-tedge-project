@@ -13,6 +13,6 @@ overrides:
         meta-rust:
             commit: a5136be2ba408af1cc8afcde1c8e3d787dadd934
         meta-tedge:
-            commit: 6398dfd354dd997e8598e6dc2e0fa6c58668dbfd
+            commit: 779b6ffe0629aea111aeb2d7c1b40f40f370d5cd
         poky:
             commit: 47ffa50db25a5ceeb73a3a0600dd9e68274d184f
