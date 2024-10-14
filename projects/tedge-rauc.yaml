@@ -6,6 +6,7 @@ header:
     - config/raspberrypi.yaml
     - config/rauc-raspberrypi.yaml
     - config/package-management.yaml
+    # - config/read-only.yaml
 
 machine: raspberrypi4-64
 distro: poky
@@ -53,7 +54,8 @@ repos:
     branch: master
 
   meta-tedge:
-    url: "https://github.com/thin-edge/meta-tedge.git"
+    url: "https://github.com/reubenmiller/meta-tedge.git"
+    branch: fix-readonly-support
     layers:
       meta-tedge:
       meta-tedge-common:
